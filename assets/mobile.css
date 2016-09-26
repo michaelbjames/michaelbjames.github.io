@@ -1,0 +1,19 @@
+
+/* tablet and larger:  */
+@media (min-width: 640px) {
+  .sidebar {
+    position: fixed;
+  }
+}
+
+/* mobile */
+
+@media not (min-width: 640px) {
+  .sidebar {
+    text-align: center;
+  }
+}
+
+.experience-spacer {
+  padding-top: 60px;
+}

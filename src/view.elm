@@ -15,10 +15,10 @@ view _ =
    , H.div [HA.class "medium-11 small-centered columns"]
       [ H.div [HA.class "row"]
         [ H.div
-          [ HA.class "columns medium-3"
+          [ HA.class "columns medium-3 sidebar"
           , HA.style
-            [ ("position", "fixed")
-            , ("max-width", "300px")
+            -- [ ("position", "fixed")
+            [ ("max-width", "300px")
             ]
           ] [sidebar]
         , H.div
@@ -53,28 +53,35 @@ workEntry info body = H.div []
   , H.div [] body
   ]
 
-ul : List String -> Html msg
-ul strs =
-  H.ul [] (List.map (\str -> H.li [] [H.text str]) strs)
+ul : List (Html msg) -> Html msg
+ul elems =
+  H.ul [] (List.map (\elem -> H.li [] [elem]) elems)
 
-centralViewport = H.div []
-  [ summary
-  , experience "work"
-    [ uber
-    , prezi
-    , nomic
-    ]
-  , experience "side projects"
-    [ t3
-    , wikiSolver
-    ]
-  , experience "personal"
-    [ pottery
-    , electronics
-    , photography
-    ]
-  , H.br [] []
-  ]
+centralViewport =
+  let
+    spacer = H.div [HA.class "experience-spacer"] []
+  in
+    H.div []
+    <| List.intersperse spacer
+      [ experience "work"
+        <| List.intersperse spacer
+          [ uber
+          , prezi
+          , nomic
+          ]
+      , experience "side projects"
+        <| List.intersperse spacer
+          [ t3
+          , wikiSolver
+          ]
+      , experience "personal"
+        <| List.intersperse spacer
+          [ pottery
+          , electronics
+          , photography
+          ]
+      , H.br [] []
+      ]
 
 summary = H.div [] []
 
@@ -85,12 +92,13 @@ uber = workEntry {place="Uber", date="June 2015 - present", title="Software Engi
  In my time at Uber I have:
      """]
   , ul 
-    [ "Migrated business.uber.com from backbone to redux"
-    , "Designed and wrote frist golang service for Uber for Business"
-    , "Given several tech talks about: functional reactive programming, stacking diffs, and golang at Uber"
-    , "Added expense code management to admin tool"
-    , "Improved policy error messaging"
+    [ H.text "Migrated business.uber.com from backbone to redux"
+    , H.text "Designed and wrote frist golang service for Uber for Business"
+    , H.text "Given several tech talks about: functional reactive programming, stacking diffs, and golang at Uber"
+    , H.text "Added expense code management to admin tool"
+    , H.text "Improved policy error messaging"
     ]
+  , H.img [HA.src "assets/biz-uber-com.png"] []
   ]
 
 prezi = workEntry {place="Prezi", date="June 2014 - August 2014", title="Elm intern"}
@@ -99,11 +107,12 @@ prezi = workEntry {place="Prezi", date="June 2014 - August 2014", title="Elm int
  headquarters in beautiful Budapest.
     """]
   , ul
-    [ "Wrote the second (and current) iteration of the time-traveling debugger"
-    , "Authored the blog post about it"
-    , "Polled and worked closely with the Elm open-source community"
-    , "Devised a performance testing framework for Elm"
+    [ H.text "Wrote the second (and current) iteration of the time-traveling debugger"
+    , H.a [HA.href Links.timeTravel] [H.text "Authored the blog post about it"]
+    , H.text "Polled and worked closely with the Elm open-source community"
+    , H.text "Devised a performance testing framework for Elm"
     ]
+  , H.a [HA.href Links.timeTravel] [H.img [HA.src "assets/time-travel.png"] []]
   ]
 
 nomic = workEntry {place="Nomic", date="June 2013 - August 2013", title="Full-stack intern"}
@@ -114,9 +123,9 @@ learn that the barista at your local coffee shop also does pottery on the side.
 The whole company was 6 people so I got to help with everything.
     """]
   , ul
-    [ "Created photo messaging feature on the Node.js backend"
-    , "implemented web frontend for photo feature on chat app"
-    , "learned and wrote the iOS feature for photo messaging"
+    [ H.text "Created photo messaging feature on the Node.js backend"
+    , H.text "implemented web frontend for photo feature on chat app"
+    , H.text "learned and wrote the iOS feature for photo messaging"
     ]
   ]
 
@@ -137,7 +146,7 @@ the \"shortest path\" between any two pages using a basic fanning out search.
   ]
 
 pottery = bodyEntry "pottery"
- [H.text "pottery"]
+ [H.img [HA.src "assets/clay.jpg"] []]
 
 electronics = bodyEntry "electronics"
   [ H.text """

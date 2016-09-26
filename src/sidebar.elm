@@ -10,12 +10,13 @@ sidebar =
   let 
     spacer = H.div [] [H.br [] []]
   in
-    H.div []
+    H.div [HA.class "align-center"]
       <| List.intersperse spacer
         [ selfie
         , name
         , shortSummary
         , contactInformation
+        , shortLinks
         ]
 
 selfie = H.img 
@@ -38,3 +39,9 @@ contactInformation =
 shortSummary = H.div [HA.class "text-center"]
   [H.text "computer science is too cool to pick just one field"]
 
+shortLinks =
+  H.div [HA.class "text-center"]
+    [ H.a [HA.href Links.localWork] [H.text "work"]
+    , H.a [HA.href Links.localSideprojects] [H.text "side-stuff"]
+    , H.a [HA.href Links.localPersonal] [H.text "the non-software stuff"]
+    ]
