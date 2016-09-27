@@ -59,28 +59,33 @@ ul elems =
 
 centralViewport =
   let
-    spacer = H.div [HA.class "experience-spacer"] []
+    eSpacer = H.div [HA.class "experience-spacer"] []
+    spacer = H.div [HA.class "object-spacer"] []
   in
     H.div []
-    <| List.intersperse spacer
-      [ experience "work"
+      [ H.a [HA.name "work"] []
+      , experience "work"
         <| List.intersperse spacer
           [ uber
           , prezi
           , nomic
           ]
+      , eSpacer
+      , H.a [HA.name "side"] []
       , experience "side projects"
         <| List.intersperse spacer
           [ t3
           , wikiSolver
           ]
+      , eSpacer
+      , H.a [HA.name "personal"] []
       , experience "personal"
         <| List.intersperse spacer
-          [ pottery
-          , electronics
+          [ electronics
           , photography
+          , pottery
           ]
-      , H.br [] []
+      , eSpacer
       ]
 
 summary = H.div [] []
@@ -92,13 +97,17 @@ uber = workEntry {place="Uber", date="June 2015 - present", title="Software Engi
  In my time at Uber I have:
      """]
   , ul 
-    [ H.text "Migrated business.uber.com from backbone to redux"
+    [ H.span []
+      [ H.text "Migrated "
+      , H.a [HA.href Links.bizUberCom] [H.text "business.uber.com"]
+      , H.text " from backbone to redux"
+      ]
     , H.text "Designed and wrote frist golang service for Uber for Business"
     , H.text "Given several tech talks about: functional reactive programming, stacking diffs, and golang at Uber"
     , H.text "Added expense code management to admin tool"
     , H.text "Improved policy error messaging"
     ]
-  , H.img [HA.src "assets/biz-uber-com.png"] []
+  -- , H.img [HA.src "assets/biz-uber-com.png"] []
   ]
 
 prezi = workEntry {place="Prezi", date="June 2014 - August 2014", title="Elm intern"}
@@ -112,7 +121,7 @@ prezi = workEntry {place="Prezi", date="June 2014 - August 2014", title="Elm int
     , H.text "Polled and worked closely with the Elm open-source community"
     , H.text "Devised a performance testing framework for Elm"
     ]
-  , H.a [HA.href Links.timeTravel] [H.img [HA.src "assets/time-travel.png"] []]
+  -- , H.a [HA.href Links.timeTravel] [H.img [HA.src "assets/time-travel.png"] []]
   ]
 
 nomic = workEntry {place="Nomic", date="June 2013 - August 2013", title="Full-stack intern"}
@@ -146,7 +155,14 @@ the \"shortest path\" between any two pages using a basic fanning out search.
   ]
 
 pottery = bodyEntry "pottery"
- [H.img [HA.src "assets/clay.jpg"] []]
+  [ H.text """
+I've been doing ceramics for about 10 years. I mostly make functional pieces.
+I replace IKEA sets. Occasionally, I make something more abstract.
+I'm currently curious about the balance between utility and form.
+Exploring subtractive methods with thrown pots, I'm following the work of
+Michael Boroniec.
+"""
+  ]
 
 electronics = bodyEntry "electronics"
   [ H.text """

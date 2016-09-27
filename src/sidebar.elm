@@ -17,6 +17,7 @@ sidebar =
         , shortSummary
         , contactInformation
         , shortLinks
+        , H.span [] []
         ]
 
 selfie = H.img 
@@ -41,7 +42,7 @@ shortSummary = H.div [HA.class "text-center"]
 
 shortLinks =
   H.div [HA.class "text-center"]
-    [ H.a [HA.href Links.localWork] [H.text "work"]
-    , H.a [HA.href Links.localSideprojects] [H.text "side-stuff"]
-    , H.a [HA.href Links.localPersonal] [H.text "the non-software stuff"]
+    [ H.div [] [H.a [HA.href Links.localWork] [H.text "work"]]
+    , H.div [] [H.a [HA.href Links.localSideprojects] [H.text "on the side"]]
+    , H.div [] [H.a [HA.href Links.localPersonal] [H.text "the non-software stuff"]]
     ]
