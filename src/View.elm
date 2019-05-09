@@ -75,30 +75,19 @@ centralViewport =
             H.div [ HA.class "object-spacer" ] []
     in
         H.div []
-            [ H.a [ HA.name "work" ] []
-            , experience "work" <|
+            [
+             experience "school" <|
                 List.intersperse spacer
-                    [ gradSchool
-                    , jana
-                    , uber
-                    , prezi
-                    , nomic
+                    [ ucsd
+                    , tufts
                     ]
             , eSpacer
-
-            -- , H.a [ HA.name "side" ] []
-            -- , experience "side projects" <|
-            -- List.intersperse spacer
-            -- [ t3
-            -- , wikiSolver
-            -- ]
-            -- , eSpacer
-            , H.a [ HA.name "personal" ] []
-            , experience "personal" <|
+            , experience "work" <|
                 List.intersperse spacer
-                    [ electronics
-                    , photography
-                    , pottery
+                    [ jana
+                    , uber
+                    , prezi
+                    -- , nomic
                     ]
             , eSpacer
             ]
@@ -108,10 +97,32 @@ summary =
     H.div [] []
 
 
-gradSchool =
+ucsd =
     workEntry { place = "UC San Diego", date = "September 2018 - Current", title = "PhD Student" }
-        [ H.p [] [ H.text """Programming Languages Researcher""" ]
+        [ H.p [] [ H.text """As a programming languages researcher, """
+                 , H.strong [] [H.text """I want to make it harder to write "bad" code"""]
+                 , H.text """, for whatever context we define bad. To that extent, I'm excited to work with the """
+                 , H.a [HA.href Links.ucsdProgSys] [H.text "UCSD ProgSys group"]
+                 , H.text " to use type-theoretic approaches to make make developers' lives better."
+                 ]
+        , H.p [] [ H.text "I work with "
+                 , H.a [HA.href Links.nadiaP] [H.text "Nadia Polikarpova"]
+                 , H.text " on program synthesis techniques. "
+                 , H.text """
+My current project, Hoogle+, is a type-directed component-based synthesis for Haskell.
+Relying on a library of everyday functions and an input type query, the system
+finds an inhabitant of the, potentially polymorphic, type using those provided component set."""
+                 ]
+        , H.p [] [ H.text """
+I also care about nature--I want to enable those with a zest for adventure
+to be able to safely and respectfully enjoy the ourdoors. I am the founder and president of UCSD's """
+                 , H.a [HA.href Links.toc] [H.text "Outdoors Club"]
+                 , H.text """. The club provides gear, experience, and opportunities to enjoy the
+                     outdoors around San Diego."""]
         ]
+
+tufts =
+    workEntry { place = "Tufts University", date = "2011 - 2015", title = "Computer Science BS" } []
 
 
 jana =
@@ -181,57 +192,4 @@ The whole company was 6 people so I got to help with everything.
             , H.text "implemented web frontend for photo feature on chat app"
             , H.text "learned and wrote the iOS feature for photo messaging"
             ]
-        ]
-
-
-t3 =
-    bodyEntry "tic-tac-toe"
-        [ H.p [] [ H.text """
-You've played tic-tac-toe. This game will always beat you. It figures out the best move, naviagting
-a large tree of possible moves. The code is generalized to easily apply the solver logic
-to any game.
-    """ ]
-        ]
-
-
-wikiSolver =
-    bodyEntry "wiki solver"
-        [ H.p [] [ H.text """
-Let's play a game: I give you two wikipedia pages and you need to find the fewest page clicks
-required to get there. I think the average is about 3 clicks. This server/client pair shows you
-the "shortest path" between any two pages using a basic fanning out search.
-    """ ]
-        ]
-
-
-pottery =
-    bodyEntry "pottery"
-        [ H.text """
-I've been doing ceramics for about 10 years. I mostly make functional pieces.
-I replace IKEA sets. Occasionally, I make something more abstract.
-I'm currently curious about the balance between utility and form.
-Exploring subtractive methods with thrown pots, I'm following the work of
-Michael Boroniec.
-"""
-        ]
-
-
-electronics =
-    bodyEntry "electronics"
-        [ H.text """
-I wanted a nice speaker amplifier when I moved out to SF, but I didn't want to buy one.
-I decided to build one. There was one problem: I didn't know anything about electrical engineering.
-I've been teaching myself and built my amplifier!
-It's a class D amplifier that can power two 80 watt speakers.
-"""
-        , H.br [] []
-        , H.text "It sounds nice."
-        ]
-
-
-photography =
-    bodyEntry "photography"
-        [ H.text "phtography"
-        , H.br [] []
-        , H.a [ HA.href Links.flickr ] [ H.text "see my photos" ]
         ]

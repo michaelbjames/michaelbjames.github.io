@@ -17,7 +17,6 @@ sidebar =
                 , name
                 , shortSummary
                 , contactInformation
-                , shortLinks
                 , H.span [] []
                 ]
 
@@ -40,20 +39,11 @@ contactInformation =
         [ H.div [] [ H.a [ HA.href Links.resume ] [ H.text "resume" ] ]
         , H.div [] [ H.a [ HA.href Links.github ] [ H.text "github" ] ]
         , H.div [] [ H.a [ HA.href Links.facebook ] [ H.text "facebook" ] ]
-        , H.div [] [ H.a [ HA.href Links.flickr ] [ H.text "flickr" ] ]
         , H.div [] [ H.a [ HA.href Links.linkedin ] [ H.text "linkedin" ] ]
+        , H.div [] [H.text "hello@<this domain name>.com"]
         ]
 
 
 shortSummary =
     H.div [ HA.class "text-center" ]
         [ H.text "making it harder for engineers to mess up" ]
-
-
-shortLinks =
-    H.div [ HA.class "text-center" ]
-        [ H.div [] [ H.a [ HA.href Links.localWork ] [ H.text "work" ] ]
-
-        -- , H.div [] [ H.a [ HA.href Links.localSideprojects ] [ H.text "on the side" ] ]
-        , H.div [] [ H.a [ HA.href Links.localPersonal ] [ H.text "the non-software stuff" ] ]
-        ]
