@@ -93,14 +93,14 @@ centralViewport =
             -- , wikiSolver
             -- ]
             -- , eSpacer
-            , H.a [ HA.name "personal" ] []
-            , experience "personal" <|
-                List.intersperse spacer
-                    [ electronics
-                    , photography
-                    , pottery
-                    ]
-            , eSpacer
+            -- , H.a [ HA.name "personal" ] []
+            -- , experience "personal" <|
+            --     List.intersperse spacer
+            --         [ electronics
+            --         , photography
+            --         , pottery
+            --         ]
+            -- , eSpacer
             ]
 
 
@@ -110,7 +110,12 @@ summary =
 
 gradSchool =
     workEntry { place = "UC San Diego", date = "September 2018 - Current", title = "PhD Student" }
-        [ H.p [] [ H.text """Programming Languages Researcher""" ]
+        [ H.p [] [ H.text """
+Programming Languages Researcher. I want to make it harder to write bad code.""" ]
+        , ul
+            [ H.text ""
+
+            ]
         ]
 
 
@@ -181,57 +186,4 @@ The whole company was 6 people so I got to help with everything.
             , H.text "implemented web frontend for photo feature on chat app"
             , H.text "learned and wrote the iOS feature for photo messaging"
             ]
-        ]
-
-
-t3 =
-    bodyEntry "tic-tac-toe"
-        [ H.p [] [ H.text """
-You've played tic-tac-toe. This game will always beat you. It figures out the best move, naviagting
-a large tree of possible moves. The code is generalized to easily apply the solver logic
-to any game.
-    """ ]
-        ]
-
-
-wikiSolver =
-    bodyEntry "wiki solver"
-        [ H.p [] [ H.text """
-Let's play a game: I give you two wikipedia pages and you need to find the fewest page clicks
-required to get there. I think the average is about 3 clicks. This server/client pair shows you
-the "shortest path" between any two pages using a basic fanning out search.
-    """ ]
-        ]
-
-
-pottery =
-    bodyEntry "pottery"
-        [ H.text """
-I've been doing ceramics for about 10 years. I mostly make functional pieces.
-I replace IKEA sets. Occasionally, I make something more abstract.
-I'm currently curious about the balance between utility and form.
-Exploring subtractive methods with thrown pots, I'm following the work of
-Michael Boroniec.
-"""
-        ]
-
-
-electronics =
-    bodyEntry "electronics"
-        [ H.text """
-I wanted a nice speaker amplifier when I moved out to SF, but I didn't want to buy one.
-I decided to build one. There was one problem: I didn't know anything about electrical engineering.
-I've been teaching myself and built my amplifier!
-It's a class D amplifier that can power two 80 watt speakers.
-"""
-        , H.br [] []
-        , H.text "It sounds nice."
-        ]
-
-
-photography =
-    bodyEntry "photography"
-        [ H.text "phtography"
-        , H.br [] []
-        , H.a [ HA.href Links.flickr ] [ H.text "see my photos" ]
         ]
