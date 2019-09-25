@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a first year PhD student at the University of California, San Diego working with [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/).
+I am a second year PhD student at the University of California, San Diego working with [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/).
 I believe robust type systems and better interfaces to programming will be the most fruitful avenues to making fewer mistakes.
 **I want to make it harder to write bad code.**
 
