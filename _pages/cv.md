@@ -9,6 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Education
 ======
 * B.S. in Computer Science, Tufts University, 2015
@@ -33,12 +39,6 @@ Work experience
 
 * Summer 2013: Nomic Inc, Mobile Intern (San Francisco)
   * Supervisor: Nate Boyd
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
 
 Talks
 ======
