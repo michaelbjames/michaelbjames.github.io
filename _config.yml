@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Michael B. James"
+title                    : "Michael 🅱️ James"
 title_separator          : "-"
-name                     : &name "Michael B. James"
+name                     : &name "Michael 🅱️ James"
 description              : &description "personal description"
 url                      : http://michaelbjames.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Michael B. James"
+  name             : "Michael 🅱️ James"
   avatar           : "profile.png"
   bio              : "PhD Student @ UC San Diego"
   location         : "San Diego, CA"
