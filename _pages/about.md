@@ -18,4 +18,6 @@ To this end, I'm currently working on program synthesis. My projects are Hoogle+
 I'm also working to extend Synquid with examples to make synthesis with refinement types a little less painful.
 
 ## I'm looking for a Summer 2020 internship!
-[DM me](https://twitter.com/@{{site.twitter.username}}) or [email me](mailto:{{site.author.email}})!
+[DM me](https://twitter.com/@{{site.twitter.username}}) or [email
+me](mailto:{{site.author.email}})!
+[[cv]({{site.baseurl}}/files/cv.pdf)]
