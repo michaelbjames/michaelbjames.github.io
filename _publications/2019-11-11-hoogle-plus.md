@@ -2,7 +2,6 @@
 title: "Program Synthesis by Type-Guided Abstraction Refinement"
 collection: publications
 permalink: /publication/2019-11-11-hoogle-plus
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2019-11-01
 venue: 'Principles of Programming Languages 2020'
 paperurl: 'http://michaelbjames.com/files/hoogle-plus.pdf'
