@@ -5,7 +5,7 @@ permalink: /publication/2020-11-15-digging-for-fold
 date: 2020-11-15
 venue: 'OOPSLA 20'
 paperurl: 'http://michaelbjames.com/files/digging-for-fold.pdf'
-demourl: 'hplus.programming.systems'
+demourl: 'http://hplus.programming.systems'
 citation: 'James, M. (2020). &quot;Digging for Fold: Synthesis-Aided API
 Discovery for Haskell.&quot; <i>OOPSLA 2020</i>. 1(1).'
 ---
@@ -27,4 +27,4 @@ with 30 participants of varying Haskell proficiency. The study shows that
 programmers equipped with Hoogle+ generally solve tasks faster and were able to
 solve 50% more tasks overall.
 
-[Download paper here]({{site.baseurl}}/files/tygar-2020.pdf)
+[Download paper here]({{site.baseurl}}/files/digging-for-fold.pdf)
