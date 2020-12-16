@@ -6,8 +6,11 @@ date: 2020-11-15
 venue: 'OOPSLA 20'
 paperurl: 'http://michaelbjames.com/files/digging-for-fold.pdf'
 demourl: 'http://hplus.programming.systems'
-citation: 'James, M. (2020). &quot;Digging for Fold: Synthesis-Aided API
-Discovery for Haskell.&quot; <i>OOPSLA 2020</i>. 1(1).'
+authors: '<strong>Michael B. James</strong>, Zheng Guo, Ziteng Wang, Shivani Doshi, Hila Peleg, Ranjit Jhala, Nadia Polikarpova'
+citation: 'Michael B. James, Zheng Guo, Ziteng Wang, Shivani Doshi, Hila Peleg, Ranjit
+Jhala, Nadia Polikarpova, “Digging for fold: synthesis-aided API discovery for Haskell,” Proc.
+ACM Program. Lang., vol. 4, no. OOPSLA, p. 205:1–205:27, Nov. 2020, doi:
+10.1145/3428273.'
 ---
 
 We present Hoogle+, a web-based API discovery tool for Haskell. A Hoogle+ user

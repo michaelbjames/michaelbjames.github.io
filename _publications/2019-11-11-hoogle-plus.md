@@ -6,8 +6,11 @@ date: 2019-11-01
 venue: 'Principles of Programming Languages 2020'
 paperurl: 'http://michaelbjames.com/files/tygar-2020.pdf'
 demourl: 'http://goto.ucsd.edu/hoogle_plus'
-citation: 'Guo, Z. (2019). &quot;Program Synthesis by Type-Guided
-Abstraction Refinement.&quot; <i>POPL 2020</i>. 1(1).'
+authors:  'Zheng Guo, <strong>Michael B. James</strong>, David Justo, Jiaxiao Zhou, Ziteng Wang, Ranjit Jhala, Nadia Polikarpova'
+citation: 'Zheng Guo, Michael B. James, David Justo, Jiaxiao Zhou, Ziteng Wang, Ranjit
+Jhala, Nadia Polikarpova, “Program synthesis by type-guided abstraction refinement,” Proc. ACM
+Program. Lang., vol. 4, no. POPL, p. 12:1–12:28, Dec. 2019, doi:
+10.1145/3371080.'
 ---
 
 We consider the problem of type-directed component based synthesis where, given
