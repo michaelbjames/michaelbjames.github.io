@@ -16,5 +16,3 @@ I believe robust type systems and better interfaces to programming will be the m
 
 To this end, I'm currently working on program synthesis. My projects are Hoogle+, a type-driven, component-based synthesis tool for Haskell; and,
 I'm also working to extend Synquid with examples to make synthesis with refinement types a little less painful.
-
-## Stay Safe! Stay Home!
