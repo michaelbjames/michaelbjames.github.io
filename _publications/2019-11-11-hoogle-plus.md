@@ -4,10 +4,13 @@ collection: publications
 permalink: /publication/2019-11-11-hoogle-plus
 date: 2019-11-01
 venue: 'Principles of Programming Languages 2020'
-paperurl: 'http://michaelbjames.com/files/hoogle-plus.pdf'
+paperurl: 'http://michaelbjames.com/files/tygar-2020.pdf'
 demourl: 'http://goto.ucsd.edu/hoogle_plus'
-citation: 'Guo, Z. (2019). &quot;Program Synthesis by Type-Guided
-Abstraction Refinement.&quot; <i>POPL 2020</i>. 1(1).'
+authors:  'Zheng Guo, <strong>Michael B. James</strong>, David Justo, Jiaxiao Zhou, Ziteng Wang, Ranjit Jhala, Nadia Polikarpova'
+citation: 'Zheng Guo, Michael B. James, David Justo, Jiaxiao Zhou, Ziteng Wang, Ranjit
+Jhala, Nadia Polikarpova, “Program synthesis by type-guided abstraction refinement,” Proc. ACM
+Program. Lang., vol. 4, no. POPL, p. 12:1–12:28, Dec. 2019, doi:
+10.1145/3371080.'
 ---
 
 We consider the problem of type-directed component based synthesis where, given
@@ -30,4 +33,4 @@ abstraction until a well-typed result is found.
 
 We have implemented TYGAR in H+, a tool that takes as input a set of Haskell libraries and a query type, and returns a Haskell term that uses functions from the provided libraries to implement the query type. We have evaluated H+ on a set of 44 queries using a set of popular Haskell libraries with a total of 291 components. Our results demonstrate that H+ returns an interesting solution within the first five results for 33 out of 44 queries. Moreover, TYGAR allows H+ to rapidly return well-typed terms, with the median time to first solution of just 1.4 seconds.
 
-[Download paper here]({{site.baseurl}}/files/hoogle-plus.pdf)
+[Download paper here]({{site.baseurl}}/files/tygar-2020.pdf)
