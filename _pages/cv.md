@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[CV pdf here]({{site.baseurl}}/files/michaelbjamescv.pdf)
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -18,7 +20,8 @@ Publications
 Education
 ======
 * Ph.D **in progress**, University of California, San Diego, began 2018
-* B.S. in Computer Science, Tufts University, 2015
+* M.S. Computer Science, University of California, San Diego, 2021
+* B.S. Computer Science, Tufts University, 2015
 
 Work experience
 ======
