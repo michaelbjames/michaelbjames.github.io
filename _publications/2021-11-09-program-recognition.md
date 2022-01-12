@@ -15,4 +15,4 @@ We introduce the problem of _program recognition_ in the context of program synt
 We argue recognition tasks are distinct from program comprehension, unique to synthesis, and under-explored.
 We run an exploratory study on program recognition and share our findings.
 
-Check back later for the paper link!
+[Download paper here]({{site.baseurl}}/files/program-recognition-in-synthesis.pdf)
