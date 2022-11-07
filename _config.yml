@@ -69,7 +69,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
+    mastodon : "https://types.pl/@michaelbjames"
 
 # Analytics
 analytics:
@@ -84,7 +84,7 @@ author:
   location         : "San Diego, CA"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=ISUC0mEAAAAJ"
   email            : "m3james@eng.ucsd.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -95,6 +95,7 @@ author:
   facebook         :
   foursquare       :
   github           : "michaelbjames"
+  mastodon         : "types.pl/@michaelbjames"
   google_plus      :
   keybase          :
   instagram        :
