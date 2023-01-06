@@ -3,7 +3,7 @@ title: "Grounded Copilot: How Programmers Interact with Code-Generating Models"
 collection: publications
 permalink: /publication/2022-10-28-grounded-copilot
 date: 2022-10-28
-venue: 'ArXiv'
+venue: 'Arxiv, to be published at OOPSLA 2023'
 authors:  'Shraddha Barke*, <strong>Michael B. James*</strong>, Nadia Polikarpova'
 citation: 'Barke S., James M. B., Polikarpova N., “Grounded Copilot: How Programmers Interact with Code-Generating Models” Arxiv.'
 ---

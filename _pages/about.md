@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a 5th year PhD student at the University of California, San Diego working with [Nadia
+I am a 5th year PhD candidate at the University of California, San Diego working with [Nadia
 Polikarpova]({{site.data.authors.Nadia_Polikarpova.uri}}).
 I want to empower people to write better code, faster.
 I focus on *type-guided program synthesis* and *human-computer interactions*.

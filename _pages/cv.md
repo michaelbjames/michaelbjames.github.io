@@ -25,6 +25,9 @@ Education
 
 Work experience
 ======
+* Summer 2022: Microsoft, Research Intern
+  * Worked with PROSE team on interface to automatic refactoring tool
+
 * 2017-2018: Jana Mobile, Software Engineer II (Boston)
   * Managed financial monitoring pipeline
   * Wrote several end-to-end anti-fraud features
