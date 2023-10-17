@@ -36,7 +36,7 @@ Work experience
 * 2015-2016: Uber Technologies, Software Engineer (San Francisco)
   * Migrated and maintained [Uber for Business](https://business.uber.com) from Backbone to React/Redux
   * Designed and wrote first Golang microservice for team of 20 engineers
-  * Presented internal talks about functional reactive programming; productive git edicate; Golang
+  * Presented internal talks about functional reactive programming; productive git education; Golang
 
 * Summer 2014: Prezi, Elm Intern (Budapest)
   * collaborated with [Evan Czaplicki](https://twitter.com/czaplic), Elm-lang's author
