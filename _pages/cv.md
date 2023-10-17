@@ -60,4 +60,5 @@ Teaching
 
 Service and leadership
 ======
-* Founder and President of UCSD's Outdoors Club.
+* PLDI 2022/23 SV Chair
+* PLDI 2021 Student Volunteer

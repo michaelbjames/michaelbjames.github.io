@@ -79,13 +79,13 @@ analytics:
 # Site Author
 author:
   name             : "Michael 🅱️ James"
-  avatar           : "profile.png"
-  bio              : "PhD Student @ UC San Diego"
+  avatar           : "profile.jpeg"
+  bio              : "PhD Candidate @ UC San Diego"
   location         : "San Diego, CA"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=ISUC0mEAAAAJ"
-  email            : "m3james@eng.ucsd.edu"
+  email            : "m3james@ucsd.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
