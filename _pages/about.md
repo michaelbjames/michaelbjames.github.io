@@ -12,6 +12,10 @@ redirect_from:
 I am looking for research focused positions.
 Get in touch with me by [email](mailto:hello@michaelbjames.com?subject=👋Hello from the internet👋).
 
+I research and build human-AI collaborative programming tools.
+I'm interested in how PL techniques, HCI methods, and AI approaches together
+can automate and simplify interacting with code.
+
 Large-language models are changing the face of programming,
 with coders working hand-in-hand with AI-powered assistants.
 Embracing the change these models offer has the potential to significantly
