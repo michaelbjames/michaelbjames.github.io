@@ -10,6 +10,8 @@ redirect_from:
 {% include base_path %}
 
 [CV pdf here]({{site.baseurl}}/files/michaelbjamescv.pdf)
+·
+[Resume pdf here]({{site.baseurl}}/files/michaelbjamesresume.pdf)
 
 Publications
 ======
