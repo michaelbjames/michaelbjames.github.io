@@ -73,19 +73,21 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "custom"
+  provider               :  "google" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id           :  "G-YLSBQZCYYL"
 
 
 # Site Author
 author:
-  name             : "Michael 🅱️ James"
+  name             : "Michael 🅱️ James, PhD"
   avatar           : "profile.jpeg"
-  bio              : "PhD Candidate @ UC San Diego"
+  bio              : "Human-AI Collaborative Programming"
   location         : "San Diego, CA"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=ISUC0mEAAAAJ"
-  email            : "m3james@ucsd.edu"
+  email            : "hello@michaelbjames.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
