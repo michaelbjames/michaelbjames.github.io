@@ -9,11 +9,12 @@ redirect_from:
 ---
 
 **⚠️Update⚠️** I am on the 💼industry job market💼 in H1 2024.
-I am looking for research focused positions.
+I make a developer's tools work for them through.
+I am seeking either engineering-focused or research-focused jobs, to work on novel problems.
 Get in touch with me by [email](mailto:hello@michaelbjames.com?subject=👋Hello from the internet👋).
 
 I research and build human-AI collaborative programming tools.
-I'm interested in how PL techniques, HCI methods, and AI approaches together
+I'm interested in how programming languages techniques, human-computer interactions methods, and AI approaches together
 can automate and simplify interacting with code.
 
 Large-language models are changing the face of programming,
@@ -21,9 +22,8 @@ with coders working hand-in-hand with AI-powered assistants.
 Embracing the change these models offer has the potential to significantly
 improve the day jobs of programmers.
 I work on creating human-centric AI-programming assistants.
-I am a 6th year PhD candidate at the University of California, San Diego working with [Nadia
-Polikarpova]({{site.data.authors.Nadia_Polikarpova.uri}}),
-hoping to find an employer with similar interests.
+I completed my PhD at the University of California, San Diego working with [Nadia
+Polikarpova]({{site.data.authors.Nadia_Polikarpova.uri}}).
 
 
 I'm working on how to involve the user more effectively in synthesis interactions.
