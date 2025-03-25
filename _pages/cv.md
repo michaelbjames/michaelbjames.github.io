@@ -21,7 +21,7 @@ Publications
 
 Education
 ======
-* Ph.D **in progress**, University of California, San Diego, began 2018
+* Ph.D PL/HCI/AI, University of California, San Diego, 2018-2024
 * M.S. Computer Science, University of California, San Diego, 2021
 * B.S. Computer Science, Tufts University, 2015
 
