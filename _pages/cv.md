@@ -27,6 +27,11 @@ Education
 
 Work experience
 ======
+* 2024-Current: Sailplane PBC, Founding Research Scientist (NYC)
+  * Design and implemented new, highly-parallel AI agent for programming
+  * Compared agent against SOTA with new dataset and novel evaluation
+  * Created multi-agent cooperation protocol
+
 * Summer 2022: Microsoft, Research Intern
   * Worked with PROSE team on interface to automatic refactoring tool
 

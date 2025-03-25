@@ -8,11 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-**⚠️Update⚠️** I am on the 💼industry job market💼 in H1 2024.
-I make a developer's tools work for them through.
-I am seeking either engineering-focused or research-focused jobs, to work on novel problems.
-Get in touch with me by [email](mailto:hello@michaelbjames.com?subject=👋Hello from the internet👋).
-
 I research and build human-AI collaborative programming tools.
 I'm interested in how programming languages techniques, human-computer interactions methods, and AI approaches together
 can automate and simplify interacting with code.
